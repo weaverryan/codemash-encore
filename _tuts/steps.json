@@ -26,11 +26,6 @@
             "description": null
         },
         {
-            "id": "setup-delete-me",
-            "name": "Setup: delete me",
-            "description": null
-        },
-        {
             "id": "setup-ignoring-built-files",
             "name": "Setup: Ignoring built files",
             "description": null
