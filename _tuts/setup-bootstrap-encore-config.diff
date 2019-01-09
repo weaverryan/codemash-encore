@@ -1,0 +1,20 @@
+diff --git a/webpack.config.js b/webpack.config.js
+new file mode 100644
+index 0000000..a646ce9
+--- /dev/null
++++ b/webpack.config.js
+@@ -0,0 +1,14 @@
++var Encore = require('@symfony/webpack-encore');
++
++Encore
++    .setOutputPath('public/build/')
++    .setPublicPath('/build')
++
++    // will output as public/build/app.js 
++    .addEntry('app', './assets/js/app.js')
++
++    .enableSourceMaps(!Encore.isProduction())
++    .disableSingleRuntimeChunk()
++;
++
++module.exports = Encore.getWebpackConfig(); 

@@ -1,0 +1,40 @@
+{
+    "steps": [
+        {
+            "id": "start",
+            "name": "start",
+            "description": null
+        },
+        {
+            "id": "setup-adding-app-js",
+            "name": "Setup: Adding app.js",
+            "description": null
+        },
+        {
+            "id": "setup-install-encore",
+            "name": "Setup: Install Encore",
+            "description": null
+        },
+        {
+            "id": "setup-ignore-node-modules",
+            "name": "Setup: Ignore node_modules",
+            "description": null
+        },
+        {
+            "id": "setup-bootstrap-encore-config",
+            "name": "Setup: Bootstrap Encore config",
+            "description": null
+        },
+        {
+            "id": "setup-delete-me",
+            "name": "Setup: delete me",
+            "description": null
+        },
+        {
+            "id": "setup-ignoring-built-files",
+            "name": "Setup: Ignoring built files",
+            "description": null
+        }
+    ],
+    "sha": "229979ce742f4a0cda0aac8377fd4a70013a8dfa"
+}
