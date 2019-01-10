@@ -7,6 +7,7 @@ Encore
     // will output as public/build/app.js 
     .addEntry('app', './assets/js/app.js')
 
+    .enableSassLoader()
     .enableSourceMaps(!Encore.isProduction())
     .disableSingleRuntimeChunk()
 ;
