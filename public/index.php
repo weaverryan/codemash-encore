@@ -13,6 +13,7 @@
 <head>
     <meta charset="utf-8">
     <title>Example page to show off Webpack Encore</title>
+    <link rel="stylesheet" href="/build/app.css">
 </head>
 <body>
     <section>
