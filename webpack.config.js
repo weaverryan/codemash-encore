@@ -12,6 +12,7 @@ Encore
     .enableSourceMaps(!Encore.isProduction())
     .disableSingleRuntimeChunk()
     .splitEntryChunks()
+    .enableVersioning()
 ;
 
 module.exports = Encore.getWebpackConfig(); 
