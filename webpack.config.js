@@ -11,6 +11,7 @@ Encore
     .enableSassLoader()
     .enableSourceMaps(!Encore.isProduction())
     .disableSingleRuntimeChunk()
+    .splitEntryChunks()
 ;
 
 module.exports = Encore.getWebpackConfig(); 
