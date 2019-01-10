@@ -1,7 +1,0 @@
-diff --git a/.gitignore b/.gitignore
-index 07e6e47..a791e08 100644
---- a/.gitignore
-+++ b/.gitignore
-@@ -1 +1,2 @@
- /node_modules
-+/public/build
