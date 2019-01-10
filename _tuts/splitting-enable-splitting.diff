@@ -1,0 +1,52 @@
+diff --git a/public/index.php b/public/index.php
+index e5260c4..b81fbd3 100644
+--- a/public/index.php
++++ b/public/index.php
+@@ -7,19 +7,33 @@
+  * Normally you would add the script/link tags onto your page
+  * however you normally do in your framework or application.
+  */
++
++function getEntryFiles($entry, $type)
++{
++    $data = json_decode(file_get_contents(
++        __DIR__.'/build/entrypoints.json'
++    ), true);
++
++    return $data['entrypoints'][$entry][$type];
++}
++
+ ?>
+ <DOCTYPE! html>
+ <html lang="en">
+ <head>
+     <meta charset="utf-8">
+     <title>Example page to show off Webpack Encore</title>
+-    <link rel="stylesheet" href="/build/app.css">
++    <?php foreach (getEntryFiles('app', 'css') as $path): ?>
++        <link rel="stylesheet" href="<?php echo $path; ?>">
++    <?php endforeach; ?>
+ </head>
+ <body>
+     <section>
+         <h1>Hello Webpack Encore!</h1>
+     </section>
+ 
+-    <script src="/build/app.js"></script>
++    <?php foreach (getEntryFiles('app', 'js') as $path): ?>
++        <script src="<?= $path; ?>"></script>
++    <?php endforeach; ?>
+ </body>
+ </html>
+diff --git a/webpack.config.js b/webpack.config.js
+index d175254..7ec4760 100644
+--- a/webpack.config.js
++++ b/webpack.config.js
+@@ -11,6 +11,7 @@ Encore
+     .enableSassLoader()
+     .enableSourceMaps(!Encore.isProduction())
+     .disableSingleRuntimeChunk()
++    .splitEntryChunks()
+ ;
+ 
+ module.exports = Encore.getWebpackConfig(); 

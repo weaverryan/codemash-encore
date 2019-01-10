@@ -1,0 +1,15 @@
+diff --git a/assets/css/cow.css b/assets/css/cow.scss
+similarity index 100%
+rename from assets/css/cow.css
+rename to assets/css/cow.scss
+diff --git a/assets/js/app.js b/assets/js/app.js
+index 0678c77..b1efc59 100644
+--- a/assets/js/app.js
++++ b/assets/js/app.js
+@@ -1,5 +1,5 @@
+ import cow_say from './cow_say';
+-import '../css/cow.css';
++import '../css/cow.scss';
+ 
+ document.body.innerHTML += `
+     <div class="the-cow">

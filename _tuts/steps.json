@@ -29,7 +29,77 @@
             "id": "setup-ignoring-built-files",
             "name": "Setup: Ignoring built files",
             "description": null
+        },
+        {
+            "id": "setup-include-app-js",
+            "name": "Setup: Include app.js",
+            "description": null
+        },
+        {
+            "id": "3rd-party-install-lodash",
+            "name": "3rd party: install lodash",
+            "description": null
+        },
+        {
+            "id": "3rd-party-import-lodash",
+            "name": "3rd party: import lodash",
+            "description": null
+        },
+        {
+            "id": "3rd-party-import-only-1-file",
+            "name": "3rd party: import only 1 file",
+            "description": null
+        },
+        {
+            "id": "css-import-some-css",
+            "name": "CSS: import some CSS",
+            "description": null
+        },
+        {
+            "id": "css-images",
+            "name": "CSS: Images",
+            "description": null
+        },
+        {
+            "id": "css-bootstrap",
+            "name": "CSS: Bootstrap",
+            "description": null
+        },
+        {
+            "id": "sass-rename-to-scss",
+            "name": "Sass: rename to scss",
+            "description": null
+        },
+        {
+            "id": "sass-install-enable",
+            "name": "Sass: Install\/enable",
+            "description": null
+        },
+        {
+            "id": "sass-bootstrap",
+            "name": "Sass: Bootstrap",
+            "description": null
+        },
+        {
+            "id": "multientry-add-checkout-entry",
+            "name": "MultiEntry: Add checkout entry",
+            "description": null
+        },
+        {
+            "id": "splitting-import-react",
+            "name": "Splitting: Import react",
+            "description": null
+        },
+        {
+            "id": "splitting-enable-splitting",
+            "name": "Splitting: Enable splitting",
+            "description": null
+        },
+        {
+            "id": "splitting-enable-versioning",
+            "name": "Splitting: Enable versioning",
+            "description": null
         }
     ],
-    "sha": "229979ce742f4a0cda0aac8377fd4a70013a8dfa"
+    "sha": "0df10b9b12eac061f812d54c2a7ba78c81246328"
 }
