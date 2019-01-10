@@ -1,6 +1,6 @@
 // assets/js/cow_say.js
-import _ from 'lodash';
+import lowerFirst from 'lodash/lowerFirst';
 
 export default function (msg) {
-    return `The cow says: ${_.lowerFirst(msg)}`;
+    return `The cow says: ${lowerFirst(msg)}`;
 }
