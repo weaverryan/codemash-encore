@@ -4,3 +4,8 @@
     padding: 5px;
     text-align: center;
 }
+
+.grass {
+    color: green;
+    background-image: url('../images/grass.jpg');
+}
