@@ -1,5 +1,5 @@
 import cow_say from './cow_say';
-import '../css/cow.css';
+import '../css/cow.scss';
 
 document.body.innerHTML += `
     <div class="the-cow">
