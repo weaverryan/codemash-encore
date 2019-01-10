@@ -18,5 +18,7 @@
     <section>
         <h1>Hello Webpack Encore!</h1>
     </section>
+
+    <script src="/build/app.js"></script>
 </body>
 </html>
